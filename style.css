@@ -73,7 +73,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background: rgba(255, 255, 255, 0.2);
+    background-color: C17817;
     padding: 1rem;
     border-radius: 10px;
     z-index: 10;
