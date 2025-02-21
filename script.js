@@ -78,7 +78,12 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
     };
-
     newGameBtn.addEventListener("click", resetGame);
     resetBtn.addEventListener("click", resetGame);
 });
+
+function showWinnerMessage(winner) {
+    const msgContainer = document.querySelector('.msg-container');
+    msgContainer.classList.add('active');
+    msgContainer.innerHTML = `Congratulations, Winner is ${winner}`;
+}
